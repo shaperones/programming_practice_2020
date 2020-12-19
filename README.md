@@ -1,36 +1,36 @@
-# Практика программирования на Python 2020
+# floralearn
+*App for determining plants and  learning their morfology.*  
 
-------------------
+Существует довольно большое количество мобильных приложений, с большой точностью определяющих растение по 
+фотографии. Они безусловно бывают полезны как для начинающего натуралиста, так и для продвинутого растениевода. Однако 
+нередки случаи, когда пользователю необходимо узнать род/вид растения точнее и, более того, сделать это без 
+помощи нейронных сетей.
 
-### [Скачать Python](https://www.python.org)
+Задачей **floralearn** является облегчение работы с определителем растений.
 
-### Часть 1
+Приложение будет особенно полезно:  
+* школьникам, участвующим в практическом туре ВсОШ по биологии
+* натуралистам и ботаникам, которые часто работают с определителями растений
+* студентам биологических направлений
+  
+Источник тез, антитез и ключей: 
+Орлова Н. И. Определитель высших растений Вологодской области.
+Вологда: ВШУ, издательство «Русь», 1997. 264 с.
+# Install
+1) download python3.7
+2) pip install kivy=1.11.1
+3) clone https://github.com/shaperones/floralearn.git
+4) run main.py
+5) profit !!!
+#What can I do?
+* determine a plant by clicking on the statements you agree with
+* see the tree of families by clicking on "tree"
+* add the page to the Favourites by clicking on "+F"
+* check your Favourites clicking on "F"
+* delete the page from the Favourites by clicking on "del" in the tab "F"
+* frequently move between pages and families, flipping through the tab "tree"
+# Future of floralearn
+1) compiling for android (plz help)
+2) add some pictures to the families' pages
+3) add determinant for species
 
-Для установки необходимых библиотек есть два возможных пути:
-1. Устанавливать каждую библиотеку по отдельности через команду медеженера пакетов PIP - pip install. Начиная с Python 3 >= 3.4, PIP уже установлен автоматически. Если по какой-то причине его нет -  [сюда](https://pip.pypa.io/en/stable/installing/)
-
-2. Уставить дистрибутив [Anaconda](https://www.anaconda.com/distribution/) с наиболее популярными библиотеками (при установке поставить "галочку" рядом с PATH)
-
-
-#### Установить  Pycharm
-* [Скачать](https://www.jetbrains.com/pycharm/download)
-* Для курса нам хватит Community Edition, но вы можете получить лицензию, как студенты и скачать Professional (google it!)
-
-#### Установить Jupyter Notebook
-* [Установить (conda / pip)](https://www.jetbrains.com/pycharm/download)
-
-#### Для пользователей Windows установить git
-* [Скачать](https://git-scm.com/download/win)
-
-#### Основное средство коммуникации курса - [чат в Telegram](https://t.me/joinchat/BNR8ZVXSheznCEB3oZsdTQ)
- 
-### Часть 2
-* Сделать форк этого репозитория, для этого нужно нажать кнопку форк на главной странице сверху
-* Скачать вашу копию этого репозитория на комп. В пайчарме кнопка `check out from Version Control`
-* Повторить историю, которую делали на занятии
-  * Создать файл, написать в него пару строк, закомитить
-  * Создать новую ветку, изменить этот файл, закомитить
-  * Смержить ветки
-  * Запушить всю эту историю
-  * Создать пул реквест, чтобы мы смогли посмотреть на ваши деяния
-  * Если есть какие-либо затруднения или вопросы, и за 15 минут гугл не дал ответа, обязательно нужно спросить в чате, затруднения не только у вас, инструкция намеренно не слишком подробная.
